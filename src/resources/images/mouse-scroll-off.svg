@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="416px" viewBox="0 0 236 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / mouse-scroll-off</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.97 235.111 0.97 235.111 413.9997 0 413.9997"></polygon>
+    </defs>
+    <g id="icon-/-mouse-scroll-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <g id="Group-3" transform="translate(0.000000, 0.030000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M117.555,13.6787 C59.742,13.6787 12.708,60.7127 12.708,118.5257 L12.708,296.4447 C12.708,354.2597 59.742,401.2917 117.555,401.2917 C175.365,401.2917 222.402,354.2607 222.402,296.4447 L222.402,118.5257 C222.402,60.7127 175.365,13.6787 117.555,13.6787 M117.555,413.9997 C52.733,413.9997 0,361.2667 0,296.4447 L0,118.5257 C0,53.7037 52.733,0.9697 117.555,0.9697 C182.376,0.9697 235.111,53.7027 235.111,118.5257 L235.111,296.4447 C235.111,361.2667 182.376,413.9997 117.555,413.9997" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M130.264,120.948 C130.264,127.967 124.573,133.657 117.555,133.657 C110.536,133.657 104.847,127.967 104.847,120.948 L104.847,108.239 C104.847,101.22 110.537,95.531 117.555,95.531 C124.573,95.531 130.264,101.221 130.264,108.239 L130.264,120.948 Z" id="Fill-4" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

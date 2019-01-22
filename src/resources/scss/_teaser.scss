@@ -1,0 +1,25 @@
+.teaser {
+  font-family: 'Pacifico';
+  font-size: 18px;
+  position: relative;
+  &:before, &:after {
+    position: absolute;
+    top: 16px;
+    overflow: hidden;
+    width: 50px;
+    height: 1px;
+    content: '\a0';
+    background-color: #FFF;
+  }
+  &:before {
+      margin-left: -60px;
+      text-align: right;
+  }
+  &:after {
+      margin-left: 10px;
+      text-align: right;
+  }
+  &.dark:before, &.dark:after {
+    background-color: black;
+  }
+}

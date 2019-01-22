@@ -1,0 +1,60 @@
+input {
+  height: 40px;
+  border-radius: 25px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  border: 1px solid $brand-turquoise;
+  &::placeholder {
+    color: $brand-turquoise;
+  }
+  &:focus {
+    color: $brand-pink;
+    border-color: $brand-pink;
+    outline: none;
+    box-shadow: 0px 2px 2px 2px #a3a3a3;
+  }
+}
+
+input[type="submit"] {
+  color: #FFF;
+  width: 200px;
+  font-family: 'Staatliches';
+  font-size: 16px;
+  background: linear-gradient(to right, $brand-blue, $brand-turquoise);
+  &:hover {
+    border-color: $brand-pink;
+    outline: none;
+    box-shadow: 0px 2px 2px 2px #a3a3a3;
+  }
+}
+
+.chevron {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 270px;
+  background-color: $brand-turquoise;
+  padding-top: 9px;
+  text-align: center;
+  &.left {
+    border-right: 2px solid $brand-blue;
+    img { transform: rotateY(180deg); }
+    &:hover {
+      background-color: $brand-green;
+      border-right: 3px solid $brand-pink;
+    }
+  }
+  &.right {
+    right: 0;
+    border-left: 2px solid $brand-blue;
+    &:hover {
+      background-color: $brand-green;
+      border-left: 3px solid $brand-pink;
+    }
+  }
+}

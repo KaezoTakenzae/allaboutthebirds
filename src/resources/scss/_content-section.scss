@@ -1,0 +1,57 @@
+.content-section {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  .diamond {
+    background-color: $brand-turquoise;
+    z-index: 9;
+    position: absolute;
+  }
+  .center-text {
+    position: absolute;
+    text-align: center;
+    min-width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .two-column-container {
+    > div {
+      display: inline-block;
+      width: 50%;
+      padding: 20px;
+      vertical-align: middle;
+    }
+    .left .content {
+      width: 60%;
+      margin-left: auto;
+      padding-top: 100px;
+      text-align: center;
+    }
+    .right .content {
+      padding-top: 60px;
+      position: relative;
+      width: 450px;
+      .gallery-image img {
+        width: 100%;
+      }
+    }
+  }
+  .banner {
+    padding: 150px;
+    > .content {
+      color: #FFF;
+      width: 575px;
+      > .title {
+        font-family: 'Staatliches';
+        font-size: 90px;
+      }
+      > .subtext {
+        font-family: 'Rambla';
+        font-size: 16px;
+      }
+    }
+  }
+}
